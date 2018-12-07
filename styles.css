@@ -73,3 +73,34 @@ h3 {
   background-color: whitesmoke;
   color: black;
 }
+
+/* Mobile Styles */
+@media only screen and (max-width: 320px) {
+  h1 {
+    font-size: 40px;
+  }
+  h3 {
+    font-size: 30px;
+  }
+  .divider {
+    margin: 15px;
+  }
+  .social ul li {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 610px) {
+  h1 {
+    font-size: 45px;
+  }
+  h3 {
+    font-size: 35px;
+  }
+  .divider {
+    margin: 15px;
+  }
+  .social ul li {
+    font-size: 18px;
+  }
+}
