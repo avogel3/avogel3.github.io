@@ -72,8 +72,18 @@ header .social > *:hover {
   align-items: center;
 }
 
-.container > img {
+.container > img,
+.uses {
   max-width: 50vw;
+}
+
+.uses {
+  border: 1px solid #ddd;
+  padding: 15px;
+}
+
+.uses > ul > li {
+  padding-bottom: 5px;
 }
 
 @media (max-width: 768px) {
@@ -81,7 +91,8 @@ header .social > *:hover {
     flex-direction: column;
   }
 
-  .container > img {
+  .container > img,
+  .uses {
     margin-top: 50px;
     max-width: 60vw;
   }
@@ -107,4 +118,13 @@ footer a {
 
 footer a:hover {
   color: blueviolet;
+}
+
+footer > *:after {
+  content: '/';
+  padding: 0 1rem;
+}
+
+footer > *:last-child:after {
+  content: '';
 }
