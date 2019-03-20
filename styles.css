@@ -1,110 +1,110 @@
+/* @mixin for-phone-only {
+  @media (max-width: 599px) {
+    @content;
+  }
+}
+@mixin for-tablet-portrait-up {
+  @media (min-width: 600px) {
+    @content;
+  }
+}
+@mixin for-tablet-landscape-up {
+  @media (min-width: 900px) {
+    @content;
+  }
+}
+@mixin for-desktop-up {
+  @media (min-width: 1200px) {
+    @content;
+  }
+}
+@mixin for-big-desktop-up {
+  @media (min-width: 1800px) {
+    @content;
+  }
+} */
+
 html,
 body {
   margin: 0;
-  background-color: black;
-  width: 100%;
-  height: 100%;
-  font-family: 'Roboto', sans-serif;
-  color: whitesmoke;
+  padding: 0;
+  max-width: 100%;
+  background-color: white;
+  font-family: 'Raleway', sans-serif;
+  color: black;
+}
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
 }
 
-h1,
-h3 {
-  font-weight: 700;
-  font-style: italic;
-  margin: 0;
+header {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 0 30px;
 }
 
-h1 {
-  font-size: 100px;
+header > h1,
+h2 {
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 0.2em;
 }
 
-h3 {
-  font-size: 50px;
+header .social {
+  margin-top: 15px;
+}
+
+header .social > * {
+  color: black;
+  margin-right: 15px;
+}
+
+header .social > *:hover {
+  color: purple;
 }
 
 .container {
   display: flex;
-  flex-direction: column;
+  flex: 1;
   justify-content: center;
   align-items: center;
-  width: 100vw;
-  height: 100vh;
 }
 
-.divider {
-  width: 25vw;
-  height: 1px;
-  background-color: whitesmoke;
-  margin: 50px;
+.container > img {
+  max-width: 50vw;
 }
 
-.social {
-  width: 100%;
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .container > img {
+    margin-top: 50px;
+    max-width: 60vw;
+  }
+}
+
+h2:hover .alumnus-purple {
+  color: blueviolet;
+}
+
+h2:hover .alumnus-gold {
+  color: gold;
+}
+
+footer {
   display: flex;
-  justify-content: center;
+  margin: 50px;
+  justify-content: flex-end;
 }
 
-.social ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-.social ul li {
-  display: inline;
-  font-size: 20px;
-}
-
-.social ul li::after {
-  content: ' /';
-}
-
-.social ul li:last-child:after {
-  content: '';
-}
-
-.social ul li a {
-  color: whitesmoke;
-  text-decoration: none;
-}
-
-.social ul li a:hover {
-  background-color: whitesmoke;
+footer a {
   color: black;
 }
 
-.footer {
-  align-self: center;
-}
-
-/* Mobile Styles */
-@media only screen and (max-width: 320px) {
-  h1 {
-    font-size: 40px;
-  }
-  h3 {
-    font-size: 30px;
-  }
-  .divider {
-    margin: 15px;
-  }
-  .social ul li {
-    font-size: 14px;
-  }
-}
-
-@media only screen and (max-width: 610px) {
-  h1 {
-    font-size: 45px;
-  }
-  h3 {
-    font-size: 35px;
-  }
-  .divider {
-    margin: 15px;
-  }
-  .social ul li {
-    font-size: 18px;
-  }
+footer a:hover {
+  color: blueviolet;
 }
