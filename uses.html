@@ -32,6 +32,13 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css"
     />
     <link rel="stylesheet" href="styles.css" />
+    <script type="text/javascript">
+      window.onload = function () {
+        var currentYear = new Date().getFullYear();
+        var copyrightElement = document.getElementById('copyright');
+        copyrightElement.textContent = "© 2018-" + currentYear + " Andrew Vogel"
+      }
+    </script>
   </head>
   <body>
     <div class="container">
@@ -99,7 +106,7 @@
       </div>
     </div>
     <footer class="animated fadeInLeft">
-      <span>&copy; 2018-2019 Andrew Vogel</span>
+      <span id="copyright">&copy; 2018-2019 Andrew Vogel</span>
       <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="uses.html">Uses</a></li>
