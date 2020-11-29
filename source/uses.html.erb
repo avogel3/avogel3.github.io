@@ -1,3 +1,31 @@
+---
+hardware:
+  - title: At home
+    content:
+      - 2020 Macbook Pro 13"  
+  - title: At work
+    content: 
+      - 2018 Mac Mini
+      - 2017 Macbook Pro 15"
+  - title: Audio
+    content: 
+      - Sonos One
+      - Sony 1000MX2
+      - Ikea Symfonisk Bookshelf Speaker
+      - Apple Airpods 
+editors: 
+  - VSCode for Javascript
+  - VIM/NVIM for everything else
+apps: 
+  - Slack
+  - Notes
+  - 1Password
+  - Alfred
+  - Bartender
+  - VLC
+  - Amethyst
+---
+
 <div class="container">
   <%= partial "header" %>
   <div class="animated fadeInRight uses">
@@ -8,21 +36,20 @@
     </p>
     <h2>Hardware</h2>
     <ul>
-      <li>
-        <b>At home:</b> I use a 2020 Macbook Pro 13" (QuadCore-i5/16GB/512GB)
-      </li>
-      <li><b>At work:</b> Right now, I bounce between a 2018 Mac Mini or whatever a client sends me</li>
-      <li><b>Audio:</b> Sonos One & Sony 1000MX2</li>
+      <%- current_page.data.hardware.each do |hardware| %>
+        <li>
+          <b><%= hardware.title %>:</b> <%= hardware.content.join(', ') %>
+        </li>
+      <% end %>
     </ul>
     <h2>Software</h2>
     <ul>
       <li><b>Terminal:</b> iTerm & <a href="https://github.com/hashrocket/dotmatrix" target="_blank" rel="noopener noreferrer">dotmatrix by Hashrocket</a></li>
       <li>
-        <b>Text Editor:</b> VSCode for JavaScript & VIM/NVIM for everything else
+        <b>Text Editor:</b> <%= current_page.data.editors.join(' & ') %> 
       </li>
       <li>
-        <b>Other:</b> Slack, Notes, 1Password, Alfred 3, Bartender,
-        Amphetamine App, Postico, Rocket, VLC
+        <b>Other:</b> <%= current_page.data.apps.join(', ') %>
       </li>
     </ul>
   </div>
