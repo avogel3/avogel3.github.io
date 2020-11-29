@@ -1,0 +1,56 @@
+.blog-posts {
+  padding-top: 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.post-metadata {
+  display: flex;
+  justify-content: space-between;
+}
+
+article {
+  border: 2px solid #ddd;
+  border-radius: 3px;
+  padding: 15px 30px;
+  margin-bottom: 15px;
+}
+
+article > h3 > a, a:hover {
+  text-decoration: none;
+}
+
+article > h3 > a {
+  color: black;
+}
+
+article > h3 > a:hover {
+  color: blueviolet;
+  text-decoration: none;
+}
+
+.header {
+  padding: 0 20px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white;
+}
+
+.header > h1 {
+  text-transform: uppercase;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 200;
+  letter-spacing: 0.2em;
+}
+
+article > p > a, a:hover {
+  text-decoration: none;
+  color: blueviolet;
+}
+
+article > p > a:active {
+  color: #ddd;
+  text-decoration: underline;
+}

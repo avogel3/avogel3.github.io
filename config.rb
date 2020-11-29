@@ -33,11 +33,14 @@ page '/*.txt', layout: false
 # Methods defined in the helpers block are available in templates
 # https://middlemanapp.com/basics/helper-methods/
 
-# helpers do
-#   def some_helper
-#     'Helping'
-#   end
-# end
+helpers do
+  def blog_posts
+    (data.blogs + data.tils).
+      sort do |a, b| 
+      Time.parse(b.created_at) <=> Time.parse(a.created_at)
+    end
+  end
+end
 
 # Build-specific configuration
 # https://middlemanapp.com/advanced/configuration/#environment-specific-settings

@@ -1,0 +1,21 @@
+---
+title: Andrew Vogel - Blog
+---
+<%= stylesheet_link_tag 'blog' %>
+<%= partial "blog_header" %>
+
+<div class="container">
+  <div class="blog-posts animated fadeInUp">
+    <%- blog_posts.each do |post| %>
+      <article class="blog">
+        <h3><a href="<%= post.permalink %>" target="_blank" rel="noopener noreferrer"><%= post.title %></a></h3>
+        <p><a href="<%= post.permalink %>" target="_blank" rel="noopener noreferrer"><%= post.source %></a></p>
+        <div class="post-metadata">
+          <span><%= post.category %></span>
+          <span><%= post.created_at %></span>
+        </div>
+      </article>
+    <% end %>
+  </div>
+</div>
+<%= partial "footer" %>
