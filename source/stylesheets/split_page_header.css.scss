@@ -1,0 +1,35 @@
+header {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 0 30px;
+}
+
+header > h1,
+h2 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 200;
+  letter-spacing: 0.2em;
+}
+
+header .social {
+  margin-top: 15px;
+}
+
+header .social > a {
+  text-decoration: none;
+}
+
+header .social > * {
+  color: black;
+  margin-right: 15px;
+}
+
+header .social > *:hover {
+  color: blueviolet;
+}
+
+header > h1 {
+  text-transform: uppercase;
+}
+
