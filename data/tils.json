@@ -1,1 +1,240 @@
-[{"title":"Disallow Large Jest Snapshots Using ESLint","category":"React","permalink":"https://til.hashrocket.com/posts/qsduwmmst2-disallow-large-jest-snapshots-using-eslint","source":"Hashrocket TIL","created_at":"August 22, 2020"},{"title":"Screenshot The Touchbar on OSX","category":"Workflow","permalink":"https://til.hashrocket.com/posts/tcjral1fw2-screenshot-the-touchbar-on-osx","source":"Hashrocket TIL","created_at":"April 29, 2020"},{"title":"Cropping Images with CSS","category":"Html-css","permalink":"https://til.hashrocket.com/posts/f2og3mobia-cropping-images-with-css","source":"Hashrocket TIL","created_at":"April 22, 2020"},{"title":"Show All Docker Containers (Running & Stopped)","category":"Devops","permalink":"https://til.hashrocket.com/posts/5ziic0bvnd-show-all-docker-containers-running-stopped","source":"Hashrocket TIL","created_at":"February 4, 2020"},{"title":"Import GraphQL Queries Where You Need Them (CRA)","category":"React","permalink":"https://til.hashrocket.com/posts/brsdq2gius-import-graphql-queries-where-you-need-them-cra","source":"Hashrocket TIL","created_at":"January 30, 2020"},{"title":"Use `reset_column_information` to Migrate Data","category":"Rails","permalink":"https://til.hashrocket.com/posts/osrprwv3pu-use-resetcolumninformation-to-migrate-data","source":"Hashrocket TIL","created_at":"May 17, 2019"},{"title":"Optional Chaining Enabled In Metro ","category":"Javascript","permalink":"https://til.hashrocket.com/posts/mvw9kstivn-optional-chaining-enabled-in-metro-","source":"Hashrocket TIL","created_at":"May 7, 2019"},{"title":"Create and Migrate the Database in Rails 6","category":"Rails","permalink":"https://til.hashrocket.com/posts/a04pzbesjg-create-and-migrate-the-database-in-rails-6","source":"Hashrocket TIL","created_at":"May 1, 2019"},{"title":"Rename PostgreSQL Database","category":"Sql","permalink":"https://til.hashrocket.com/posts/1dinbhytoz-rename-postgresql-database","source":"Hashrocket TIL","created_at":"February 25, 2019"},{"title":"Define Your Refs with React ElementRef Flow Type","category":"React","permalink":"https://til.hashrocket.com/posts/e6kuvxdhsd-define-your-refs-with-react-elementref-flow-type","source":"Hashrocket TIL","created_at":"February 7, 2019"},{"title":"Create A Video Thumbnail Image With ffmpeg","category":"Command-line","permalink":"https://til.hashrocket.com/posts/xzfeg0wohy-create-a-video-thumbnail-image-with-ffmpeg","source":"Hashrocket TIL","created_at":"January 29, 2019"},{"title":"Run a JavaScript file using Babel features","category":"Javascript","permalink":"https://til.hashrocket.com/posts/xm9pj1bdd8-run-a-javascript-file-using-babel-features","source":"Hashrocket TIL","created_at":"January 25, 2019"},{"title":"Trigger a Side Effect with setState","category":"React","permalink":"https://til.hashrocket.com/posts/krik65opxt-trigger-a-side-effect-with-setstate","source":"Hashrocket TIL","created_at":"January 24, 2019"},{"title":"List All Branches Containing a Commit","category":"Git","permalink":"https://til.hashrocket.com/posts/vjbi9lzuq2-list-all-branches-containing-a-commit","source":"Hashrocket TIL","created_at":"November 29, 2018"},{"title":"Kill All Running Tmux Sessions","category":"Workflow","permalink":"https://til.hashrocket.com/posts/r2scex04uz-kill-all-running-tmux-sessions","source":"Hashrocket TIL","created_at":"July 27, 2018"},{"title":"Show Shortlog of Commiters and Their Commits","category":"Git","permalink":"https://til.hashrocket.com/posts/vuqvv2m20f-show-shortlog-of-commiters-and-their-commits","source":"Hashrocket TIL","created_at":"July 11, 2018"},{"title":"Alias an NPM Package with `yarn add`","category":"Javascript","permalink":"https://til.hashrocket.com/posts/oxmc7kencg-alias-an-npm-package-with-yarn-add","source":"Hashrocket TIL","created_at":"June 28, 2018"},{"title":"List All Running Tmux Sessions","category":"Workflow","permalink":"https://til.hashrocket.com/posts/baec4pmxhl-list-all-running-tmux-sessions","source":"Hashrocket TIL","created_at":"May 22, 2018"},{"title":"Fix Timeouts and Speed Up Jest on CI","category":"Javascript","permalink":"https://til.hashrocket.com/posts/s9bzmmvbbz-fix-timeouts-and-speed-up-jest-on-ci","source":"Hashrocket TIL","created_at":"April 25, 2018"},{"title":"Open a Gem for Inspection with Bundler","category":"Rails","permalink":"https://til.hashrocket.com/posts/hyqcqywo2x-open-a-gem-for-inspection-with-bundler","source":"Hashrocket TIL","created_at":"April 11, 2018"},{"title":"Change Name of :id Param in Rails Resource Routing","category":"Rails","permalink":"https://til.hashrocket.com/posts/b5g71gjbpy-change-name-of-id-param-in-rails-resource-routing","source":"Hashrocket TIL","created_at":"March 15, 2018"},{"title":"Generate Absolute File Path In Ruby","category":"Ruby","permalink":"https://til.hashrocket.com/posts/qabujwvdrg-generate-absolute-file-path-in-ruby","source":"Hashrocket TIL","created_at":"February 7, 2018"},{"title":"Pass Array of Values As Query String in Rails ","category":"Rails","permalink":"https://til.hashrocket.com/posts/syzssfozay-pass-array-of-values-as-query-string-in-rails-","source":"Hashrocket TIL","created_at":"January 16, 2018"},{"title":"Shortcut - Go To Chrome Tab by Number","category":"Workflow","permalink":"https://til.hashrocket.com/posts/wbzbuohbaq-shortcut-go-to-chrome-tab-by-number","source":"Hashrocket TIL","created_at":"November 14, 2017"},{"title":"Searching Your Commits from the Command Line","category":"Git","permalink":"https://til.hashrocket.com/posts/r6ikryu84a-searching-your-commits-from-the-command-line","source":"Hashrocket TIL","created_at":"November 7, 2017"},{"title":"List All Rails Migrations And Their Status","category":"Rails","permalink":"https://til.hashrocket.com/posts/a2clzpr4b7-list-all-rails-migrations-and-their-status","source":"Hashrocket TIL","created_at":"October 25, 2017"},{"title":"List Peer Dependencies Using NPM","category":"Javascript","permalink":"https://til.hashrocket.com/posts/vkavn42wdk-list-peer-dependencies-using-npm","source":"Hashrocket TIL","created_at":"October 15, 2017"},{"title":"Deleting Words in Vim","category":"Vim","permalink":"https://til.hashrocket.com/posts/fbfwnjxgtd-deleting-words-in-vim","source":"Hashrocket TIL","created_at":"October 9, 2017"},{"title":"Getting BetterErrors in Rails While Using Ngrok","category":"Rails","permalink":"https://til.hashrocket.com/posts/ieuwqk647d-getting-bettererrors-in-rails-while-using-ngrok","source":"Hashrocket TIL","created_at":"September 18, 2017"},{"title":"Set the Domain or Host in Rails URL Helpers","category":"Rails","permalink":"https://til.hashrocket.com/posts/ge8g7dnjis-set-the-domain-or-host-in-rails-url-helpers","source":"Hashrocket TIL","created_at":"August 21, 2017"},{"title":"Rename a File or Directory in Vim File Explorer","category":"Vim","permalink":"https://til.hashrocket.com/posts/or4xyxrpx1-rename-a-file-or-directory-in-vim-file-explorer","source":"Hashrocket TIL","created_at":"August 20, 2017"},{"title":"Delete a File or Directory in Vim File Explorer","category":"Vim","permalink":"https://til.hashrocket.com/posts/jjfay8stny-delete-a-file-or-directory-in-vim-file-explorer","source":"Hashrocket TIL","created_at":"August 17, 2017"},{"title":"Alias A Model Method Or Field in a GraphQL Type","category":"Rails","permalink":"https://til.hashrocket.com/posts/tmlf8pfnne-alias-a-model-method-or-field-in-a-graphql-type","source":"Hashrocket TIL","created_at":"August 17, 2017"}]
+[
+  {
+    "title": "What Is the Rails Notes Command?",
+    "category": "Ruby",
+    "permalink": "https://til.hashrocket.com/posts/ofaoqmx14j-what-is-the-rails-notes-command",
+    "source": "Hashrocket TIL",
+    "created_at": "January 2, 2021"
+  },
+  {
+    "title": "Disallow Large Jest Snapshots Using ESLint",
+    "category": "React",
+    "permalink": "https://til.hashrocket.com/posts/qsduwmmst2-disallow-large-jest-snapshots-using-eslint",
+    "source": "Hashrocket TIL",
+    "created_at": "August 22, 2020"
+  },
+  {
+    "title": "Screenshot The Touchbar on OSX",
+    "category": "Workflow",
+    "permalink": "https://til.hashrocket.com/posts/tcjral1fw2-screenshot-the-touchbar-on-osx",
+    "source": "Hashrocket TIL",
+    "created_at": "April 29, 2020"
+  },
+  {
+    "title": "Cropping Images with CSS",
+    "category": "Html-css",
+    "permalink": "https://til.hashrocket.com/posts/f2og3mobia-cropping-images-with-css",
+    "source": "Hashrocket TIL",
+    "created_at": "April 22, 2020"
+  },
+  {
+    "title": "Show All Docker Containers (Running & Stopped)",
+    "category": "Devops",
+    "permalink": "https://til.hashrocket.com/posts/5ziic0bvnd-show-all-docker-containers-running-stopped",
+    "source": "Hashrocket TIL",
+    "created_at": "February 4, 2020"
+  },
+  {
+    "title": "Import GraphQL Queries Where You Need Them (CRA)",
+    "category": "React",
+    "permalink": "https://til.hashrocket.com/posts/brsdq2gius-import-graphql-queries-where-you-need-them-cra",
+    "source": "Hashrocket TIL",
+    "created_at": "January 30, 2020"
+  },
+  {
+    "title": "Use `reset_column_information` to Migrate Data",
+    "category": "Rails",
+    "permalink": "https://til.hashrocket.com/posts/osrprwv3pu-use-resetcolumninformation-to-migrate-data",
+    "source": "Hashrocket TIL",
+    "created_at": "May 17, 2019"
+  },
+  {
+    "title": "Optional Chaining Enabled In Metro ",
+    "category": "Javascript",
+    "permalink": "https://til.hashrocket.com/posts/mvw9kstivn-optional-chaining-enabled-in-metro-",
+    "source": "Hashrocket TIL",
+    "created_at": "May 7, 2019"
+  },
+  {
+    "title": "Create and Migrate the Database in Rails 6",
+    "category": "Rails",
+    "permalink": "https://til.hashrocket.com/posts/a04pzbesjg-create-and-migrate-the-database-in-rails-6",
+    "source": "Hashrocket TIL",
+    "created_at": "May 1, 2019"
+  },
+  {
+    "title": "Rename PostgreSQL Database",
+    "category": "Sql",
+    "permalink": "https://til.hashrocket.com/posts/1dinbhytoz-rename-postgresql-database",
+    "source": "Hashrocket TIL",
+    "created_at": "February 25, 2019"
+  },
+  {
+    "title": "Define Your Refs with React ElementRef Flow Type",
+    "category": "React",
+    "permalink": "https://til.hashrocket.com/posts/e6kuvxdhsd-define-your-refs-with-react-elementref-flow-type",
+    "source": "Hashrocket TIL",
+    "created_at": "February 7, 2019"
+  },
+  {
+    "title": "Create A Video Thumbnail Image With ffmpeg",
+    "category": "Command-line",
+    "permalink": "https://til.hashrocket.com/posts/xzfeg0wohy-create-a-video-thumbnail-image-with-ffmpeg",
+    "source": "Hashrocket TIL",
+    "created_at": "January 29, 2019"
+  },
+  {
+    "title": "Run a JavaScript file using Babel features",
+    "category": "Javascript",
+    "permalink": "https://til.hashrocket.com/posts/xm9pj1bdd8-run-a-javascript-file-using-babel-features",
+    "source": "Hashrocket TIL",
+    "created_at": "January 25, 2019"
+  },
+  {
+    "title": "Trigger a Side Effect with setState",
+    "category": "React",
+    "permalink": "https://til.hashrocket.com/posts/krik65opxt-trigger-a-side-effect-with-setstate",
+    "source": "Hashrocket TIL",
+    "created_at": "January 24, 2019"
+  },
+  {
+    "title": "List All Branches Containing a Commit",
+    "category": "Git",
+    "permalink": "https://til.hashrocket.com/posts/vjbi9lzuq2-list-all-branches-containing-a-commit",
+    "source": "Hashrocket TIL",
+    "created_at": "November 29, 2018"
+  },
+  {
+    "title": "Kill All Running Tmux Sessions",
+    "category": "Workflow",
+    "permalink": "https://til.hashrocket.com/posts/r2scex04uz-kill-all-running-tmux-sessions",
+    "source": "Hashrocket TIL",
+    "created_at": "July 27, 2018"
+  },
+  {
+    "title": "Show Shortlog of Commiters and Their Commits",
+    "category": "Git",
+    "permalink": "https://til.hashrocket.com/posts/vuqvv2m20f-show-shortlog-of-commiters-and-their-commits",
+    "source": "Hashrocket TIL",
+    "created_at": "July 11, 2018"
+  },
+  {
+    "title": "Alias an NPM Package with `yarn add`",
+    "category": "Javascript",
+    "permalink": "https://til.hashrocket.com/posts/oxmc7kencg-alias-an-npm-package-with-yarn-add",
+    "source": "Hashrocket TIL",
+    "created_at": "June 28, 2018"
+  },
+  {
+    "title": "List All Running Tmux Sessions",
+    "category": "Workflow",
+    "permalink": "https://til.hashrocket.com/posts/baec4pmxhl-list-all-running-tmux-sessions",
+    "source": "Hashrocket TIL",
+    "created_at": "May 22, 2018"
+  },
+  {
+    "title": "Fix Timeouts and Speed Up Jest on CI",
+    "category": "Javascript",
+    "permalink": "https://til.hashrocket.com/posts/s9bzmmvbbz-fix-timeouts-and-speed-up-jest-on-ci",
+    "source": "Hashrocket TIL",
+    "created_at": "April 25, 2018"
+  },
+  {
+    "title": "Open a Gem for Inspection with Bundler",
+    "category": "Rails",
+    "permalink": "https://til.hashrocket.com/posts/hyqcqywo2x-open-a-gem-for-inspection-with-bundler",
+    "source": "Hashrocket TIL",
+    "created_at": "April 11, 2018"
+  },
+  {
+    "title": "Change Name of :id Param in Rails Resource Routing",
+    "category": "Rails",
+    "permalink": "https://til.hashrocket.com/posts/b5g71gjbpy-change-name-of-id-param-in-rails-resource-routing",
+    "source": "Hashrocket TIL",
+    "created_at": "March 15, 2018"
+  },
+  {
+    "title": "Generate Absolute File Path In Ruby",
+    "category": "Ruby",
+    "permalink": "https://til.hashrocket.com/posts/qabujwvdrg-generate-absolute-file-path-in-ruby",
+    "source": "Hashrocket TIL",
+    "created_at": "February 7, 2018"
+  },
+  {
+    "title": "Pass Array of Values As Query String in Rails ",
+    "category": "Rails",
+    "permalink": "https://til.hashrocket.com/posts/syzssfozay-pass-array-of-values-as-query-string-in-rails-",
+    "source": "Hashrocket TIL",
+    "created_at": "January 16, 2018"
+  },
+  {
+    "title": "Shortcut - Go To Chrome Tab by Number",
+    "category": "Workflow",
+    "permalink": "https://til.hashrocket.com/posts/wbzbuohbaq-shortcut-go-to-chrome-tab-by-number",
+    "source": "Hashrocket TIL",
+    "created_at": "November 14, 2017"
+  },
+  {
+    "title": "Searching Your Commits from the Command Line",
+    "category": "Git",
+    "permalink": "https://til.hashrocket.com/posts/r6ikryu84a-searching-your-commits-from-the-command-line",
+    "source": "Hashrocket TIL",
+    "created_at": "November 7, 2017"
+  },
+  {
+    "title": "List All Rails Migrations And Their Status",
+    "category": "Rails",
+    "permalink": "https://til.hashrocket.com/posts/a2clzpr4b7-list-all-rails-migrations-and-their-status",
+    "source": "Hashrocket TIL",
+    "created_at": "October 25, 2017"
+  },
+  {
+    "title": "List Peer Dependencies Using NPM",
+    "category": "Javascript",
+    "permalink": "https://til.hashrocket.com/posts/vkavn42wdk-list-peer-dependencies-using-npm",
+    "source": "Hashrocket TIL",
+    "created_at": "October 15, 2017"
+  },
+  {
+    "title": "Deleting Words in Vim",
+    "category": "Vim",
+    "permalink": "https://til.hashrocket.com/posts/fbfwnjxgtd-deleting-words-in-vim",
+    "source": "Hashrocket TIL",
+    "created_at": "October 9, 2017"
+  },
+  {
+    "title": "Getting BetterErrors in Rails While Using Ngrok",
+    "category": "Rails",
+    "permalink": "https://til.hashrocket.com/posts/ieuwqk647d-getting-bettererrors-in-rails-while-using-ngrok",
+    "source": "Hashrocket TIL",
+    "created_at": "September 18, 2017"
+  },
+  {
+    "title": "Set the Domain or Host in Rails URL Helpers",
+    "category": "Rails",
+    "permalink": "https://til.hashrocket.com/posts/ge8g7dnjis-set-the-domain-or-host-in-rails-url-helpers",
+    "source": "Hashrocket TIL",
+    "created_at": "August 21, 2017"
+  },
+  {
+    "title": "Rename a File or Directory in Vim File Explorer",
+    "category": "Vim",
+    "permalink": "https://til.hashrocket.com/posts/or4xyxrpx1-rename-a-file-or-directory-in-vim-file-explorer",
+    "source": "Hashrocket TIL",
+    "created_at": "August 20, 2017"
+  },
+  {
+    "title": "Delete a File or Directory in Vim File Explorer",
+    "category": "Vim",
+    "permalink": "https://til.hashrocket.com/posts/jjfay8stny-delete-a-file-or-directory-in-vim-file-explorer",
+    "source": "Hashrocket TIL",
+    "created_at": "August 17, 2017"
+  },
+  {
+    "title": "Alias A Model Method Or Field in a GraphQL Type",
+    "category": "Rails",
+    "permalink": "https://til.hashrocket.com/posts/tmlf8pfnne-alias-a-model-method-or-field-in-a-graphql-type",
+    "source": "Hashrocket TIL",
+    "created_at": "August 17, 2017"
+  }
+]

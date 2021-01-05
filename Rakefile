@@ -1,7 +1,7 @@
 require 'middleman-gh-pages'
 
-
 namespace :sync do 
+  desc 'Sync writing contributions from accross the web'
   task :writing_contributions do 
     require 'nokogiri'
     require 'open-uri'
@@ -23,7 +23,7 @@ namespace :sync do
         created_at: created_at
       }
     end
-    File.open('./data/blogs.json', "w+") { |f| f.write(blog_posts.to_json) }
+    File.open('./data/blogs.json', "w+") { |f| f.write(JSON.pretty_generate(blog_posts)) }
     puts "Hashrocket Blog posts written to data file"
 
     doc = Nokogiri::HTML(URI.open(HASHROCKET_TILS_URL))
@@ -36,7 +36,7 @@ namespace :sync do
         created_at: til.css("section footer time a").first&.content
       }
     end
-    File.open('./data/tils.json', "w+") { |f| f.write(hashrocket_tils.to_json) }
+    File.open('./data/tils.json', "w+") { |f| f.write(JSON.pretty_generate(hashrocket_tils)) }
     puts "Hashrocket TILS written to data file"
   end
 end
