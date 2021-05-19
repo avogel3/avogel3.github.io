@@ -11,8 +11,8 @@ title: Andrew Vogel - Blog
         <h3><a href="<%= post.permalink %>" target="_blank" rel="noopener noreferrer"><%= post.title %></a></h3>
         <p><a href="<%= post.permalink %>" target="_blank" rel="noopener noreferrer"><%= post.source %></a></p>
         <div class="post-metadata">
-          <span><%= post.category %></span>
-          <span><%= post.created_at %></span>
+          <div class="category"><%= post.category.presence || "Blog" %></div>
+          <div class="date"><%= post.created_at %></div>
         </div>
       </article>
     <% end %>

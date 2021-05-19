@@ -8,6 +8,18 @@
 .post-metadata {
   display: flex;
   justify-content: space-between;
+
+  .category {
+    color: white;
+    background-color: deepskyblue;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+
+  .date {
+    color: darkgray;
+  }
 }
 
 article {
@@ -30,9 +42,13 @@ article > h3 > a:hover {
   text-decoration: none;
 }
 
-article > p > a, a:hover {
+article > p > a {
   text-decoration: none;
   color: blueviolet;
+
+  &:hover {
+    text-decoration: underline;
+  }
 }
 
 article > p > a:active {
