@@ -1,5 +1,9 @@
 <footer class="animated fadeInLeft">
-  <span id="copyright">&copy; 2018-2019 Andrew Vogel</span>
+  <span>
+    &copy; 
+    <span id="copyrightYear"><%= Time.now.year %></span>
+     Andrew Vogel
+  </span>
   <ul>
     <li><%= link_to "Home", "/index.html" %></li>
     <li><%= link_to "Uses", "/uses.html" %></li>
