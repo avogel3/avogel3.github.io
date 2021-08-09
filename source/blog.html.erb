@@ -8,7 +8,7 @@ title: Andrew Vogel - Blog
   <div class="blog-posts animated fadeInUp">
     <%- blog_posts.each do |post| %>
       <article class="blog">
-        <h3><a href="<%= post.permalink %>" target="_blank" rel="noopener noreferrer"><%= post.title %></a></h3>
+        <h3><a href="<%= post.permalink %>" target="_blank" rel="noopener noreferrer"><%= h post.title %></a></h3>
         <p><a href="<%= post.permalink %>" target="_blank" rel="noopener noreferrer"><%= post.source %></a></p>
         <div class="post-metadata">
           <div class="category"><%= post.category.presence || "Blog" %></div>
