@@ -1,3 +1,4 @@
+// Mixins
 @mixin for-phone-only {
   @media (max-width: 599px) {
     @content;
@@ -24,40 +25,55 @@
   }
 }
 
+// Helpers
+.flex {
+  display: flex;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.mw-50 {
+  max-width: 50%;
+}
+
+.img-responsive {
+  width: 100%;
+  height: auto;
+}
+
+// Actual Styles
 html,
 body {
   margin: 0;
   padding: 0;
+  font-size: 16px;
   max-width: 100%;
   background-color: white;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Inter', sans-serif;
   color: black;
 }
+
 body {
   display: flex;
+  flex: 1;
   min-height: 100vh;
   flex-direction: column;
-}
 
-.container {
-  display: flex;
-  flex: 1;
-  justify-content: center;
-  align-items: center;
-}
-
-.container > img,
-.uses {
-  max-width: 50vw;
-}
-
-.uses {
-  border: 1px solid #ddd;
-  padding: 15px;
-}
-
-.uses > ul > li {
-  padding-bottom: 5px;
+  h1 {
+    font-size: 3rem;
+    font-weight: 900;
+  }
 }
 
 h2:hover .alumnus-purple {
@@ -68,19 +84,20 @@ h2:hover .alumnus-gold {
   color: gold;
 }
 
-footer {
+header {
   display: flex;
-  margin: 50px;
-  justify-content: flex-end;
+  justify-content: space-between;
   align-items: center;
+  padding: 2rem 3rem;
 
-  @include for-phone-only {
-    flex-direction: column;
+  .logo {
+    width: 2rem;
   }
 
   a {
     color: black;
-    font-weight: 400;
+    font-size: 1.25rem;
+    font-weight: 600;
     text-decoration: none;
 
     &:hover {
@@ -88,19 +105,25 @@ footer {
     }
   }
 
+  nav {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+  }
+
   ul {
     list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+
     li {
       display: inline;
-      &:after {
-        content: '/';
-        padding: 0 1rem;
+      margin-left: 4rem;
+
+      &:first-child {
+        margin-left: 0;
       }
-      &:last-child {
-        &:after {
-          content: '';
-        }
-      }
+
       @include for-phone-only {
         display: block;
         text-align: center;
@@ -112,17 +135,59 @@ footer {
       }
     }
   }
-}
 
-
-@media (max-width: 768px) {
-  .container {
+  @include for-phone-only {
     flex-direction: column;
   }
+}
 
-  .container > img,
-  .uses {
-    margin-top: 50px;
-    max-width: 60vw;
+footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: auto;
+  padding: 2rem 3rem;
+  font-weight: 500;
+  font-size: .75rem;
+  color: gray;
+}
+
+main {
+  padding: 2rem 3rem;
+
+  p {
+    font-size: 1.25rem;
   }
+
+  a {
+    font-weight: bold;
+  }
+
+  img.me {
+    max-width: 90%;
+  }
+
+  .role {
+    font-weight: 700;
+  }
+
+  .lsu-alumn {
+    animation: rainbow 2s ease-in-out infinite;
+    background: linear-gradient(to right,gold,burlywood,blueviolet);
+    background-clip: text;
+    -webkit-background-clip:text;
+    color: rgba(0,0,0,1);
+    transition: color .5s ease-in-out;
+    text-transform: uppercase;
+    background-size: 200% 200%;
+
+    &:hover {
+      color:rgba(0,0,0,0);
+    }
+    @keyframes rainbow {
+     0%{background-position:left}
+     50%{background-position:right}
+     100%{background-position:left}
+    }
+  }
+
 }
