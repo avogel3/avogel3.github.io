@@ -164,10 +164,16 @@ main {
 
   img.me {
     max-width: 90%;
+    outline: 3px solid white;
+    outline-offset: -0.5rem;
   }
 
   .role {
     font-weight: 700;
+  }
+
+  .about {
+    padding-right: 2rem;
   }
 
   .lsu-alumn {
@@ -183,11 +189,11 @@ main {
     &:hover {
       color:rgba(0,0,0,0);
     }
+
     @keyframes rainbow {
      0%{background-position:left}
      50%{background-position:right}
      100%{background-position:left}
     }
   }
-
 }

@@ -18,43 +18,41 @@ hardware:
       - HHKB
       - GMMK Pro w/ Kailh Purples
       - Rama Kara w/ NK Creams
-editors: 
-  - VIM/NVIM
+      - KBD67 Lite R3 w/SP Metor Whites
 apps: 
   - Slack
-  - Notes
+  - The Suite of Apple Apps (Notes, Reminders, Calendar, ...)
+  - The Suite of Google Apps (GMail, Calendar, Sheets, Docs, ...)
   - 1Password
   - Alfred
   - Bartender
   - VLC
   - Amethyst
+  - Coinbase
+  - CoinMarketCap
 ---
 
-<div class="container">
-  <%= partial "header" %>
-  <div class="animated fadeInRight uses">
-    <h1>Uses</h1>
-    <p>
-      I'm a passionate technologist and I always geek out on cool hardware and software. This is not an exhaustive list. Rather, these are the items you can find on my desk or within arms reach while I'm working.
-    </p>
-    <h2>Hardware</h2>
-    <ul>
-      <%- current_page.data.hardware.each do |hardware| %>
-        <li>
-          <b><%= hardware.title %>:</b> <%= hardware.content.join(', ') %>
-        </li>
-      <% end %>
-    </ul>
-    <h2>Software</h2>
-    <ul>
-      <li><b>Terminal:</b> iTerm & <a href="https://github.com/hashrocket/dotmatrix" target="_blank" rel="noopener noreferrer">dotmatrix by Hashrocket</a></li>
+<main>
+  <h1>Uses</h1>
+  <p>
+  I'm a passionate technologist and I always geek out on cool hardware and software. This is not an exhaustive list. Rather, these are the items you can find me using regularly
+  </p>
+  <h2>Hardware</h2>
+  <ul>
+    <%- current_page.data.hardware.each do |hardware| %>
       <li>
-        <b>Text Editor:</b> <%= current_page.data.editors.join(' & ') %> 
+        <b><%= hardware.title %>:</b> <%= hardware.content.join(', ') %>
       </li>
-      <li>
-        <b>Other:</b> <%= current_page.data.apps.join(', ') %>
-      </li>
-    </ul>
-  </div>
-</div>
-<%= partial "footer" %>
+    <% end %>
+  </ul>
+  <h2>Software</h2>
+  <ul>
+    <li><b>Terminal:</b> iTerm & my homebrewed terminal config. When I first started at Hashrocket, I made a point to learn as much as I could from dotmatrix. After tinkering for a few years, I've started to settle on a config on my own. However a good portion of the config files still come from dotmatrix.
+    <li>
+      <b>Text Editor:</b> Big VIM guy here (lol), but I've been using NVIM most recently.
+    </li>
+    <li>
+      <b>Other:</b> <%= current_page.data.apps.join(', ') %>
+    </li>
+  </ul>
+</main>

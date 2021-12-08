@@ -1,21 +1,19 @@
 ---
 title: Andrew Vogel - Blog
 ---
-<%= stylesheet_link_tag 'blog' %>
-<%= partial "fixed_top_header" %>
 
-<div class="container">
-  <div class="blog-posts animated fadeInUp">
+<%= stylesheet_link_tag 'blog' %>
+
+<main>
+  <h1>The Blog</h1>
+  <p>Below, you'll find some of my blog posts and TILs from Hashrocket. I'll be updating this page with more contributions in the future.</p>
+  <ul class="animated fadeInUp">
     <%- blog_posts.each do |post| %>
-      <article class="blog">
-        <h3><a href="<%= post.permalink %>" target="_blank" rel="noopener noreferrer"><%= h post.title %></a></h3>
-        <p><a href="<%= post.permalink %>" target="_blank" rel="noopener noreferrer"><%= post.source %></a></p>
-        <div class="post-metadata">
-          <div class="category"><%= post.category.presence || "Blog" %></div>
-          <div class="date"><%= post.created_at %></div>
-        </div>
-      </article>
+      <li>
+        <%= link_to h(post.title), post.permalink, target: "_blank", rel: "noopener noreferrer" %>
+      </li>
     <% end %>
+  </ul>
+  <div class="mw-50">
   </div>
-</div>
-<%= partial "footer" %>
+</main>

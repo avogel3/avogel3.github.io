@@ -44,6 +44,7 @@ helpers do
   end
 end
 
+set :haml, { format: :html5 }
 # Build-specific configuration
 # https://middlemanapp.com/advanced/configuration/#environment-specific-settings
 
