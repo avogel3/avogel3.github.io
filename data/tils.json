@@ -1,5 +1,19 @@
 [
   {
+    "title": "Get the Values for a Ecto Schema Enum Column",
+    "category": "Elixir",
+    "permalink": "https://til.hashrocket.com/posts/vkhipl5jff-get-the-values-for-a-ecto-schema-enum-column",
+    "source": "Hashrocket TIL",
+    "created_at": "November 1, 2021"
+  },
+  {
+    "title": "Dynamically Render Client Side with Next.js",
+    "category": "Javascript",
+    "permalink": "https://til.hashrocket.com/posts/bhlutxk2lv-dynamically-render-client-side-with-nextjs",
+    "source": "Hashrocket TIL",
+    "created_at": "September 3, 2021"
+  },
+  {
     "title": "Parse a Query String in Ruby",
     "category": "Ruby",
     "permalink": "https://til.hashrocket.com/posts/6maup7ld08-parse-a-query-string-in-ruby",
