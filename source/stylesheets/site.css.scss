@@ -52,6 +52,24 @@
   height: auto;
 }
 
+.hidden-mobile {
+  @include for-phone-only {
+    display: none;
+  }
+}
+
+.visible-mobile-only {
+  display: none;
+
+  @include for-phone-only {
+    display: inline;
+  }
+}
+
+.mx-auto {
+  margin: 0 auto;
+}
+
 // Actual Styles
 html,
 body {
@@ -117,42 +135,47 @@ header {
     padding-left: 0;
 
     li {
-      display: inline;
-      margin-left: 4rem;
+      display: none;
+
+      @include for-tablet-portrait-up {
+        display: inline;
+        margin-left: 2rem;
+      }
+
+      @include for-tablet-landscape-up {
+        margin-left: 4rem;
+      }
 
       &:first-child {
         margin-left: 0;
-      }
-
-      @include for-phone-only {
-        display: block;
-        text-align: center;
-        padding-top: 1rem;
-
-        &:after {
-          content: '';
-        }
       }
     }
   }
 
   @include for-phone-only {
-    flex-direction: column;
+    flex-direction: row;
   }
 }
 
 footer {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
   margin-top: auto;
   padding: 2rem 3rem;
   font-weight: 500;
   font-size: .75rem;
   color: gray;
+
+  @include for-tablet-landscape-up {
+    flex-direction: row;
+    justify-content: space-between;
+  }
 }
 
 main {
   padding: 2rem 3rem;
+  margin: auto 0;
 
   p {
     font-size: 1.25rem;
@@ -160,6 +183,20 @@ main {
 
   a {
     font-weight: bold;
+  }
+
+  .headshot-container {
+    display: none;
+
+    @include for-tablet-portrait-up {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    @include for-tablet-landscape-up {
+      max-width: 50%;
+    }
   }
 
   img.me {
@@ -172,8 +209,35 @@ main {
     font-weight: 700;
   }
 
+  .about-container {
+    display: flex;
+    flex-direction: column;
+
+    @include for-tablet-landscape-up {
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+    }
+  }
+
   .about {
-    padding-right: 2rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    h1 {
+      @include for-phone-only {
+        font-size: 2rem;
+        text-align: center;
+      }
+    }
+
+    @include for-tablet-landscape-up {
+      display: flex;
+      flex-direction: column;
+      max-width: 50%;
+      padding-right: 2rem;
+    }
   }
 
   .lsu-alumn {
