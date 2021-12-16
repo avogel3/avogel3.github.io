@@ -103,9 +103,6 @@ h2:hover .alumnus-gold {
 }
 
 header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   padding: 2rem 3rem;
 
   .logo {
@@ -123,37 +120,21 @@ header {
     }
   }
 
-  nav {
-    width: 50%;
-    display: flex;
-    justify-content: center;
-  }
-
   ul {
     list-style: none;
     margin-left: 0;
     padding-left: 0;
+    display: none;
+    background-color: whitesmoke;
 
     li {
-      display: none;
+      padding: 0.5rem;
+      border-bottom: 1px solid gray;
 
-      @include for-tablet-portrait-up {
-        display: inline;
-        margin-left: 2rem;
-      }
-
-      @include for-tablet-landscape-up {
-        margin-left: 4rem;
-      }
-
-      &:first-child {
-        margin-left: 0;
+      &:last-child {
+        border-bottom: none;
       }
     }
-  }
-
-  @include for-phone-only {
-    flex-direction: row;
   }
 }
 

@@ -1,10 +1,13 @@
 <header>
-  <% link_to "/" do %>
-    <%= image_tag "logo.png", class: "logo", alt: "Andrew Vogel - AV Monogram Logo" %>
-  <% end %>
+  <div class="flex space-between items-center">
+    <% link_to "/" do %>
+      <%= image_tag "logo.png", class: "logo", alt: "Andrew Vogel - AV Monogram Logo" %>
+    <% end %>
 
+    <span id="navToggle"><i class="fas fa-bars"></i></span>
+  </div>
   <nav>
-    <ul>
+    <ul id="navLinks">
       <li><%= link_to "Home", "/index.html" %></li>
       <li><%= link_to "Uses", "/uses.html" %></li>
       <li><%= link_to "Blog", "/blog.html" %></li>
