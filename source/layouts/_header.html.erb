@@ -1,17 +1,18 @@
 <header>
-  <div class="flex space-between items-center">
+  <nav>
     <% link_to "/" do %>
       <%= image_tag "logo.png", class: "logo", alt: "Andrew Vogel - AV Monogram Logo" %>
     <% end %>
-
-    <span id="navToggle"><i class="fas fa-bars"></i></span>
-  </div>
-  <nav>
     <ul id="navLinks">
       <li><%= link_to "Home", "/index.html" %></li>
       <li><%= link_to "Uses", "/uses.html" %></li>
       <li><%= link_to "Blog", "/blog.html" %></li>
       <li><%= link_to "Contact", "mailto:andrewpvogel@gmail.com" %></li>
     </ul>
+    <div class="hamburger">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </div>
   </nav>
 </header>
