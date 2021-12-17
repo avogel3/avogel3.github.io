@@ -75,6 +75,8 @@ header {
       color: #475569;
       font-weight: 600;
       text-decoration: none; }
+      header nav a:hover {
+        color: blueviolet; }
     header nav .hamburger {
       display: none; }
     header nav .bar {
