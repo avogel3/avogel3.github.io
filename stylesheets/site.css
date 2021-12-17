@@ -56,41 +56,68 @@ h2:hover .alumnus-gold {
   color: gold; }
 
 header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   padding: 2rem 3rem; }
   header .logo {
     width: 2rem; }
-  header a {
-    color: black;
-    font-size: 1.25rem;
-    font-weight: 600;
-    text-decoration: none; }
-    header a:hover {
-      color: blueviolet; }
   header nav {
-    width: 50%;
     display: flex;
-    justify-content: center; }
-  header ul {
-    list-style: none;
-    margin-left: 0;
-    padding-left: 0; }
-    header ul li {
+    justify-content: space-between;
+    align-items: center; }
+    header nav ul {
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+      header nav ul li {
+        margin-left: 4rem;
+        list-style: none; }
+    header nav a {
+      font-size: 1.25rem;
+      color: #475569;
+      font-weight: 600;
+      text-decoration: none; }
+    header nav .hamburger {
       display: none; }
-      @media (min-width: 600px) {
-        header ul li {
-          display: inline;
-          margin-left: 2rem; } }
-      @media (min-width: 900px) {
-        header ul li {
-          margin-left: 4rem; } }
-      header ul li:first-child {
-        margin-left: 0; }
-  @media (max-width: 599px) {
-    header {
-      flex-direction: row; } }
+    header nav .bar {
+      display: block;
+      width: 1.5rem;
+      height: 0.25rem;
+      margin: 0.25rem auto;
+      -webkit-transition: all 0.3s ease-in-out;
+      transition: all 0.3s ease-in-out;
+      background-color: #101010; }
+
+@media only screen and (max-width: 768px) {
+  nav ul {
+    width: 100vw;
+    position: fixed;
+    left: -100%;
+    padding: inherit;
+    top: 5rem;
+    flex-direction: column;
+    background-color: #fff;
+    width: 100%;
+    text-align: center;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    -webkit-box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+            box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+    z-index: 1; }
+    nav ul li {
+      margin: 2.5rem 0 !important; }
+  nav ul.active {
+    left: -0%; }
+  nav .hamburger {
+    display: block !important;
+    cursor: pointer; }
+  nav .hamburger.active .bar:nth-child(2) {
+    opacity: 0; }
+  nav .hamburger.active .bar:nth-child(1) {
+    -webkit-transform: translateY(8px) rotate(45deg);
+            transform: translateY(8px) rotate(45deg); }
+  nav .hamburger.active .bar:nth-child(3) {
+    -webkit-transform: translateY(-8px) rotate(-45deg);
+            transform: translateY(-8px) rotate(-45deg); } }
+
 footer {
   display: flex;
   flex-direction: column;
