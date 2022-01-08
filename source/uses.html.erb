@@ -32,7 +32,7 @@ apps:
   - CoinMarketCap
 ---
 
-<main>
+<main class="uses">
   <h1>Uses</h1>
   <div class="flex-column items-center">
     <%= image_tag "uses_slim.JPG", class: "me img-responsive", alt: "What Andrew Vogel Uses Image" %>
@@ -58,4 +58,14 @@ apps:
       <b>Other:</b> <%= current_page.data.apps.join(', ') %>
     </li>
   </ul>
+  <hr />
+  <details>
+    <summary><b>What is a /uses page?</b></summary>
+    <div class="about">
+      <blockquote cite="https://github.com/wesbos/awesome-uses">
+        <p>...detail(s) developer setups, gear, software and configs."</p>
+      </blockquote>
+      <figcaption>—Wes Bos, <cite>Awesome Uses</cite></figcaption>
+    </div>
+  </details>
 </main>
