@@ -9,6 +9,7 @@
     %meta{:content => "width=device-width, initial-scale=1, shrink-to-fit=no", :name => "viewport"}/
     / Use the title from a page's frontmatter if it has one
     %title= current_page.data.title || "Andrew Vogel - Software Developer"
+    %link{ rel: "shortcut icon", href: "/images/favicon.png" }
     = partial "layouts/external_assets"
     = stylesheet_link_tag "site"
     = javascript_include_tag "site"
