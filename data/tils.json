@@ -1,5 +1,12 @@
 [
   {
+    "title": "Be Careful with JavaScript Numbers",
+    "category": "Javascript",
+    "permalink": "https://til.hashrocket.com/posts/d8qhhxpqhk-be-careful-with-javascript-numbers",
+    "source": "Hashrocket TIL",
+    "created_at": "December 22, 2021"
+  },
+  {
     "title": "Get the Values for a Ecto Schema Enum Column",
     "category": "Elixir",
     "permalink": "https://til.hashrocket.com/posts/vkhipl5jff-get-the-values-for-a-ecto-schema-enum-column",
