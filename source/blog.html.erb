@@ -4,16 +4,35 @@ title: Andrew Vogel - Blog
 
 <%= stylesheet_link_tag 'blog' %>
 
-<main>
+<main class="blogs">
   <h1>The Blog</h1>
   <p>Below, you'll find some of my blog posts and TILs from Hashrocket. I'll be updating this page with more contributions in the future.</p>
-  <ul class="animated fadeInUp">
-    <%- blog_posts.each do |post| %>
-      <li>
-        <%= link_to h(post.title), post.permalink, target: "_blank", rel: "noopener noreferrer" %>
-      </li>
-    <% end %>
-  </ul>
-  <div class="mw-50">
-  </div>
+  <section class="tils">
+    <div class="titleSection">
+      <h2>Today I Learned</h2>
+      <%= link_to "View All",
+        "https://til.hashrocket.com/authors/andrewvogel",
+        rel: "noopener noreferrer",
+        target: "_blank",
+        title: "View TILs by Andrew Vogel on til.hashrocket.com"
+      %>
+    </div>
+    <div class="tilsContainer">
+      <%- tils.take(9).each_slice(3).each do |tils_slice| %>
+        <div class="tilsSliceContainer">
+          <%- tils_slice.each do |til| %>
+            <% link_to til.permalink, class: "tilLink", target: "_blank", rel: "noopener noreferrer" do %>
+              <article class="til">
+                <b class="title"><%= h(til.title) %></b>
+                <div class="flex space-between">
+                  <time><%= til.created_at %></time>
+                  <span class="tilHashtag"><%= "#" + til.category.upcase %></span>
+                </div>
+              </article>
+            <% end %>
+          <% end %>
+        </div>
+      <% end %>
+    </div>
+  </section>
 </main>

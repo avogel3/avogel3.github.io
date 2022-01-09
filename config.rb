@@ -36,11 +36,18 @@ page '/*.txt', layout: false
 # https://middlemanapp.com/basics/helper-methods/
 
 helpers do
-  def blog_posts
-    (data.blogs + data.tils).
-      sort do |a, b| 
+  def by_created_at
+    -> (a, b) {
       Time.parse(b.created_at) <=> Time.parse(a.created_at)
-    end
+    }
+  end
+
+  def blogs_and_tils
+    (data.blogs + data.tils).sort(&by_created_at)
+  end
+
+  def tils
+    data.tils.sort(&by_created_at)
   end
 end
 
