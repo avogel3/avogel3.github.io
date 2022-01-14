@@ -9,6 +9,8 @@ end
 
 activate :livereload
 
+activate :blog
+
 # Layouts
 # https://middlemanapp.com/basics/layouts/
 
