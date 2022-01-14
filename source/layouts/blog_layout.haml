@@ -8,7 +8,7 @@
         %h1.formattedTitle= current_page.data.title
         .flex.space-between.items-center
           %h4.category= current_page.data.category
-          - if current_page.data.tags.any?
+          - if current_page.data.tags
             %div
               - current_page.data.tags.each do |tag|
                 %span.tag= tag

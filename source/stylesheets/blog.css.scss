@@ -13,6 +13,8 @@ main.blog {
   .postContent {
     padding: 0 12rem;
 
+    color: #475569;
+
     .tag {
       font-weight: bold;
       color: blueviolet;
@@ -23,6 +25,7 @@ main.blog {
     }
 
     .formattedTitle {
+      color: black;
       margin-bottom: .5rem;
     }
 
