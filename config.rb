@@ -55,6 +55,12 @@ helpers do
   def tils
     data.tils.sort(&by_created_at)
   end
+
+  # FIXME: It really shouldn't be hardcoded to last but sometimes
+  # it be like that. Fix dis in the future
+  def featured_article
+    blog.articles.last
+  end
 end
 
 set :haml, { format: :html5 }

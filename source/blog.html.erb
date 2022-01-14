@@ -6,6 +6,16 @@ title: Andrew Vogel - Blog
 
 <main class="blogs">
   <h1>The Blog</h1>
+  <div class="imageTextOverlay">
+    <%= image_tag featured_article.data.featuredImage %>
+    <div class="bottom-left">
+      <a href="<%= featured_article.url %>">
+        <%= featured_article.data.title %>
+      </a>
+      <br />
+      <span><%= featured_article.date.strftime("%d %b %Y") %></span>
+    </div>
+  </div>
   <p>Below, you'll find some of my blog posts and TILs from Hashrocket. I'll be updating this page with more contributions in the future.</p>
   <section class="tils">
     <div class="titleSection">
