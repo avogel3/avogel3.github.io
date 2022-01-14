@@ -1,17 +1,32 @@
+@import "mixins";
 main.blog {
   display: flex;
   flex-direction: column;
+  padding: 0;
+
+  @include for-tablet-portrait-up {
+    padding: 2rem 3rem;
+  }
 
   .featuredImage {
-    min-width: 815px;
-    max-width: 1500px;
+    max-width: 100%;
     height: 400px;
-    object-fit: cover;
     align-self: center;
+    object-fit: cover;
+
+    @include for-tablet-portrait-up {
+      min-width: 815px;
+      max-width: 1500px;
+    }
   }
 
   .postContent {
-    padding: 0 12rem;
+    padding: 1rem 2rem;
+    font-size: 0.8rem;
+
+    @include for-desktop-up {
+      padding: 0 12rem;
+    }
 
     color: #475569;
 
