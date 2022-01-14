@@ -8,8 +8,6 @@ HASHROCKET_TILS_URL = "https://til.hashrocket.com/authors/andrewvogel"
 HASHROCKET_BLOGS_URL = "https://hashrocket.com/blog/rocketeers/andrew-vogel"
 
 namespace :sync do
-  desc 'Sync writing contributions from accross the web'
-
   namespace :hr do
     task :tils_to_file do
       doc = Nokogiri::HTML(URI.open(HASHROCKET_TILS_URL))
@@ -58,5 +56,6 @@ namespace :sync do
     puts "\n...Writing contributions added to version control! ".green
   end
 
+  desc 'Sync writing contributions from accross the web'
   task :writing_contributions => ["hr:tils_to_file", "hr:blogs_to_file", "_commit"]
 end
