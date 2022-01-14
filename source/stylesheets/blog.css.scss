@@ -1,67 +1,48 @@
-main.blogs {
-  section.tils {
-    .tilsContainer {
-      display: flex;
-      flex-direction: column;
-      flex-wrap: wrap;
-      max-height: 16rem;
-      justify-content: space-evenly;
+main.blog {
+  display: flex;
+  flex-direction: column;
+
+  .featuredImage {
+    min-width: 815px;
+    max-width: 1500px;
+    height: 400px;
+    object-fit: cover;
+    align-self: center;
+  }
+
+  .postContent {
+    padding: 0 12rem;
+
+    .tag {
+      font-weight: bold;
+      color: blueviolet;
+      border-radius: 1.5rem;
+      border: 1px solid blueviolet;
+      padding: .25rem;
+      font-size: .6rem;
     }
 
-    .tilsSliceContainer {
-      margin-right: 0.5rem;
-      &:last-child {
-        margin-right: 0;
+    .formattedTitle {
+      margin-bottom: .5rem;
+    }
+
+    .category {
+      margin-top: 0;
+      margin-bottom: .5rem;
+      color: gray;
+    }
+
+    .publishedOn {
+      display: block;
+      color: blueviolet;
+      font-size: .75rem;
+      time {
+        padding-top: .5rem;
+        display: block;
+        color: black;
+        font-size: 1.25rem;
       }
     }
   }
-
-  a.tilLink {
-    display: block;
-    text-decoration: none;
-    font-weight: normal;
-    margin-bottom: 1rem;
-    color: black;
-  }
-
-  .til {
-    background-color: lightgray;
-    border: 1px solid lightgray;
-    padding: 1rem 1.5rem;
-    border-radius: .75rem;
-
-    .title {
-      white-space: nowrap;
-      overflow: hidden;
-      text-overflow: ellipsis;
-    }
-
-    time {
-      color: #4f4f4f; // medium gray
-    }
-
-    &:hover {
-      background-color: whitesmoke;
-      border: 1px solid gray;
-      box-shadow: 1px 1px 2px gray;
-    }
-
-    &:last-child {
-      margin-bottom: 0;
-    }
-
-    span.tilHashtag {
-      color: blueviolet;
-    }
-  }
-
-  .titleSection {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    a {
-      text-decoration: none;
-      color: tomato;
-    }
-  }
 }
+

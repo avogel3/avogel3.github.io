@@ -1,0 +1,19 @@
+= wrap_layout :layout do
+  %main.blog
+    - if current_page.data.featuredImage
+      = image_tag current_page.data.featuredImage, class: "featuredImage img-responsive"
+
+    .postContent
+      - if current_page.data.configFormatMetadata
+        %h1.formattedTitle= current_page.data.title
+        .flex.space-between.items-center
+          %h4.category= current_page.data.category
+          - if current_page.data.tags.any?
+            %div
+              - current_page.data.tags.each do |tag|
+                %span.tag= tag
+        %b.publishedOn
+          Published On
+          %time{ datetime: current_page.data.date }= Date.parse(current_page.data.date).strftime("%d %b %Y")
+      = yield
+

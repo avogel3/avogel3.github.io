@@ -9,7 +9,11 @@ end
 
 activate :livereload
 
-activate :blog
+activate :blog do |blog|
+  blog.prefix = "blog"
+  blog.permalink = "/{category}/{year}-{month}-{day}-{title}.html"
+  blog.layout = "blog_layout"
+end
 
 # Layouts
 # https://middlemanapp.com/basics/layouts/
