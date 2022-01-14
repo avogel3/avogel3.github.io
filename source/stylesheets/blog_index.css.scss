@@ -1,0 +1,67 @@
+main.blogs {
+  section.tils {
+    .tilsContainer {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      max-height: 16rem;
+      justify-content: space-evenly;
+    }
+
+    .tilsSliceContainer {
+      margin-right: 0.5rem;
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+
+  a.tilLink {
+    display: block;
+    text-decoration: none;
+    font-weight: normal;
+    margin-bottom: 1rem;
+    color: black;
+  }
+
+  .til {
+    background-color: lightgray;
+    border: 1px solid lightgray;
+    padding: 1rem 1.5rem;
+    border-radius: .75rem;
+
+    .title {
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    time {
+      color: #4f4f4f; // medium gray
+    }
+
+    &:hover {
+      background-color: whitesmoke;
+      border: 1px solid gray;
+      box-shadow: 1px 1px 2px gray;
+    }
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    span.tilHashtag {
+      color: blueviolet;
+    }
+  }
+
+  .titleSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    a {
+      text-decoration: none;
+      color: tomato;
+    }
+  }
+}
