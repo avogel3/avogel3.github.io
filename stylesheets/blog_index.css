@@ -49,6 +49,7 @@ main.blogs .titleSection {
     color: tomato; }
 
 main.blogs .imageTextOverlay {
+  display: block;
   position: relative;
   color: white; }
   main.blogs .imageTextOverlay img {
@@ -56,15 +57,16 @@ main.blogs .imageTextOverlay {
     height: 500px;
     -o-object-fit: cover;
        object-fit: cover;
-    border-radius: 0.75rem; }
+    border-radius: 0.75rem;
+    -webkit-box-shadow: 3px 3px 5px #4f4f4f;
+            box-shadow: 3px 3px 5px #4f4f4f; }
   main.blogs .imageTextOverlay .bottom-left {
     position: absolute;
     bottom: 2rem;
     left: 2rem;
     color: white; }
-    main.blogs .imageTextOverlay .bottom-left a {
-      text-decoration: none;
-      color: white;
-      font-size: 3rem; }
-      main.blogs .imageTextOverlay .bottom-left a:hover {
-        text-decoration: underline; }
+  main.blogs .imageTextOverlay .titleText {
+    font-size: 3rem;
+    color: white; }
+    main.blogs .imageTextOverlay .titleText:hover {
+      text-decoration: underline; }
