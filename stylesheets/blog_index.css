@@ -1,72 +1,53 @@
-main.blogs section.tils .tilsContainer {
+main.slash-blog {
   display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  max-height: 16rem;
-  justify-content: space-evenly;
-  overflow: auto;
-  padding-top: 1rem; }
-
-main.blogs section.tils .tilsSliceContainer {
-  margin-right: 0.5rem; }
-  main.blogs section.tils .tilsSliceContainer:last-child {
-    margin-right: 0; }
-
-main.blogs a.tilLink {
-  display: block;
-  text-decoration: none;
-  font-weight: normal;
-  margin-bottom: 1rem;
-  color: black; }
-
-main.blogs .til {
-  background-color: lightgray;
-  border: 1px solid lightgray;
-  padding: 1rem 1.5rem;
-  border-radius: .75rem; }
-  main.blogs .til .title {
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis; }
-  main.blogs .til time {
-    color: #4f4f4f; }
-  main.blogs .til:hover {
-    background-color: whitesmoke;
-    border: 1px solid gray;
-    -webkit-box-shadow: 1px 1px 2px gray;
-            box-shadow: 1px 1px 2px gray; }
-  main.blogs .til:last-child {
-    margin-bottom: 0; }
-  main.blogs .til span.tilHashtag {
-    color: blueviolet; }
-
-main.blogs .titleSection {
-  display: flex;
-  justify-content: space-between;
-  align-items: center; }
-  main.blogs .titleSection a {
-    text-decoration: none;
-    color: tomato; }
-
-main.blogs .imageTextOverlay {
-  display: block;
-  position: relative;
-  color: white; }
-  main.blogs .imageTextOverlay img {
-    width: 100%;
-    height: 500px;
-    -o-object-fit: cover;
-       object-fit: cover;
-    border-radius: 0.75rem;
-    -webkit-box-shadow: 3px 3px 5px #4f4f4f;
-            box-shadow: 3px 3px 5px #4f4f4f; }
-  main.blogs .imageTextOverlay .bottom-left {
-    position: absolute;
-    bottom: 2rem;
-    left: 2rem;
-    color: white; }
-  main.blogs .imageTextOverlay .titleText {
-    font-size: 3rem;
-    color: white; }
-    main.blogs .imageTextOverlay .titleText:hover {
-      text-decoration: underline; }
+  flex-direction: column; }
+  @media (max-width: 599px) {
+    main.slash-blog {
+      padding: 0; }
+      main.slash-blog h1, main.slash-blog h2 {
+        padding-left: 1rem; } }
+  main.slash-blog ul li {
+    list-style: none;
+    padding: 1rem 0;
+    border-bottom: 1px solid gray; }
+    main.slash-blog ul li a {
+      color: black;
+      text-decoration: none; }
+      main.slash-blog ul li a:hover {
+        color: gray; }
+  @media (max-width: 599px) {
+    main.slash-blog ul {
+      padding: 1rem; } }
+  main.slash-blog .hashtag {
+    font-size: 0.75rem;
+    color: gray; }
+  main.slash-blog img.feature {
+    max-width: 250px;
+    height: auto;
+    border-radius: 0.25rem; }
+    @media (max-width: 599px) {
+      main.slash-blog img.feature {
+        margin: 0 auto; } }
+  main.slash-blog .blog-description {
+    display: flex;
+    flex: 1;
+    flex-direction: column; }
+    @media (min-width: 600px) {
+      main.slash-blog .blog-description {
+        margin-left: 1rem; } }
+  main.slash-blog .preview {
+    color: gray; }
+    @media (max-width: 599px) {
+      main.slash-blog .preview {
+        display: none; } }
+  @media (max-width: 599px) {
+    main.slash-blog .preview-link {
+      display: none; } }
+  main.slash-blog .blog-article {
+    display: flex; }
+    @media (max-width: 599px) {
+      main.slash-blog .blog-article {
+        flex-direction: column; } }
+  @media (max-width: 599px) {
+    main.slash-blog a.view-all {
+      margin-right: 0.5rem; } }

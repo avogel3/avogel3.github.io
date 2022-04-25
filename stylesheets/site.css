@@ -32,6 +32,9 @@
 .mx-auto {
   margin: 0 auto; }
 
+.flex-1 {
+  flex: 1; }
+
 html,
 body {
   margin: 0;
