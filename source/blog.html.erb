@@ -4,44 +4,68 @@ title: Andrew Vogel - Blog
 
 <%= stylesheet_link_tag 'blog_index' %>
 
-<main class="blogs">
+<main class="slash-blog">
   <h1>The Blog</h1>
+  <section>
+    <ul>
+      <%- blog.articles.each do |article| %>
+        <li>
+          <div class="blog-article">
+            <%= image_tag article.data.featuredImage, class: "feature" %>
+            <div class="blog-description">
+              <div class="flex space-between flex-1 items-center">
+                <h3>
+                  <%= link_to article.title, article %>
+                </h3>
+                <time datetime="<%= article.date.strftime("%B %d, %Y") %>">
+                  <%= article.date.strftime("%B %d, %Y") %>
+                </time>
+              </div>
+              <div class="preview">
+                <%= article.summary %>
+              </div>
+              <%= link_to 'Read more…', article, class: "preview-link" %>
+            </div>
+          </div>
+        </li>
+      <% end %>
+    </ul>
+  </section>
 
-  <% link_to featured_article.url, class: "imageTextOverlay", title: featured_article.data.title + " - The Blog of andrewvogel.dev" do %>
-    <%= image_tag featured_article.data.featuredImage %>
-    <div class="bottom-left">
-      <span class="titleText"><%= featured_article.data.title %></span>
-      <br />
-      <span><%= featured_article.date.strftime("%d %b %Y") %></span>
-    </div>
-  <% end %>
-  <p>Below, you'll find some of my blog posts and TILs from Hashrocket. I'll be updating this page with more contributions in the future.</p>
-  <section class="tils">
-    <div class="titleSection">
+  <section>
+    <div class="flex space-between items-center">
       <h2>Today I Learned</h2>
       <%= link_to "View All",
         "https://til.hashrocket.com/authors/andrewvogel",
         rel: "noopener noreferrer",
         target: "_blank",
-        title: "View TILs by Andrew Vogel on til.hashrocket.com"
+        title: "View TILs by Andrew Vogel on til.hashrocket.com",
+        class: "view-all"
       %>
     </div>
-    <div class="tilsContainer">
-      <%- tils.take(9).each_slice(3).each do |tils_slice| %>
-        <div class="tilsSliceContainer">
-          <%- tils_slice.each do |til| %>
-            <% link_to til.permalink, class: "tilLink", target: "_blank", rel: "noopener noreferrer" do %>
-              <article class="til">
-                <b class="title"><%= h(til.title) %></b>
-                <div class="flex space-between">
-                  <time><%= til.created_at %></time>
-                  <span class="tilHashtag"><%= "#" + til.category.upcase %></span>
-                </div>
-              </article>
-            <% end %>
-          <% end %>
-        </div>
+
+    <ul>
+      <%- tils.each do |til| %>
+        <li>
+          <div class="flex space-between">
+            <span>
+              <%= link_to h(til.title),
+                til.permalink,
+                title: "Today I Learned - " + til.title,
+                rel: "noopener noreferrer",
+                target: "_blank"
+              %>
+              <span class="hashtag">
+                <%= "#" + til.category.upcase %>
+              </span>
+            </span>
+            <time datetime="<%= til.created_at %>">
+              <%= til.created_at %>
+            </time>
+          </div>
+        </li>
       <% end %>
-    </div>
+    </ul>
+
   </section>
 </main>

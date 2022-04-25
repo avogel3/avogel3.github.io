@@ -11,3 +11,5 @@ gem 'wdm', '~> 0.1', platforms: %i[mswin mingw x64_mingw]
 gem "colorize", "~> 0.8.1"
 gem "middleman-blog", "~> 4.0"
 gem "builder", "~> 3.0"
+
+gem "nokogiri", "~> 1.13"
