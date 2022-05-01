@@ -22,7 +22,7 @@ main.slash-blog {
     font-size: 0.75rem;
     color: gray; }
   main.slash-blog img.feature {
-    max-width: 250px;
+    max-width: 300px;
     height: auto;
     border-radius: 0.25rem; }
     @media (max-width: 599px) {

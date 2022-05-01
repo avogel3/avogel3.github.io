@@ -21,3 +21,10 @@ function setCopyrightContent() {
   copyrightElement.textContent = currentYear;
 }
 
+function toggleExpandImage() {
+  const targetEl = document.getElementById('toggleExpandImageTarget')
+  if(!targetEl) return;
+
+  targetEl.classList.toggle('y-auto');
+}
+

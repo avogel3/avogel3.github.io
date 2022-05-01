@@ -21,6 +21,7 @@
 
 <link href="/stylesheets/site.css" rel="stylesheet" />
 <script src="/javascripts/site.js"></script>
+<link href='https://fonts.googleapis.com/icon?family=Material+Icons' rel='stylesheet'>
 </head>
 <body>
 <header>
@@ -41,7 +42,10 @@
 </header>
 
 <main class='blog'>
-<img src="https://images.unsplash.com/photo-1531297484001-80022131f5a1" class="featuredImage img-responsive" alt="" />
+<img src="https://images.unsplash.com/photo-1531297484001-80022131f5a1" class="featuredImage img-responsive" id="toggleExpandImageTarget" alt="" />
+<div class='flex content-center'>
+<span class='material-icons text-light-gray hover-text-gray cursor-default mt-2' onclick='toggleExpandImage()'>expand</span>
+</div>
 <div class='postContent'>
 <h1 class='formattedTitle'>Hello World</h1>
 <div class='flex space-between items-center'>

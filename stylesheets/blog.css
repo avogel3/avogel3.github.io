@@ -6,8 +6,9 @@ main.blog {
     main.blog {
       padding: 2rem 3rem; } }
   main.blog .featuredImage {
-    max-width: 100%;
-    height: 400px;
+    width: 100%;
+    height: 500px;
+    border-radius: 0.25rem;
     -ms-grid-row-align: center;
         align-self: center;
     -o-object-fit: cover;
