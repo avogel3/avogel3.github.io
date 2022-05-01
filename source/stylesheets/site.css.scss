@@ -18,6 +18,10 @@
   align-items: center;
 }
 
+.content-center {
+  justify-content: center;
+}
+
 .mw-50 {
   max-width: 50%;
 }
@@ -45,8 +49,28 @@
   margin: 0 auto;
 }
 
+.mt-2 {
+  margin-top: 0.5rem;
+}
+
 .flex-1 {
   flex: 1;
+}
+
+.hover-text-gray:hover {
+  color: gray;
+}
+
+.text-light-gray {
+  color: lightgray;
+}
+
+.y-auto {
+  height: auto !important;
+}
+
+.cursor-default {
+  cursor: default;
 }
 
 // Actual Styles

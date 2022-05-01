@@ -1,7 +1,9 @@
 = wrap_layout :layout do
   %main.blog
     - if current_page.data.featuredImage
-      = image_tag current_page.data.featuredImage, class: "featuredImage img-responsive"
+      = image_tag current_page.data.featuredImage, class: "featuredImage img-responsive", id: "toggleExpandImageTarget"
+      .flex.content-center
+        %span.material-icons.text-light-gray.hover-text-gray.cursor-default.mt-2{ onclick: "toggleExpandImage()" } expand
 
     .postContent
       - if current_page.data.configFormatMetadata
