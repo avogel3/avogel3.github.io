@@ -1,5 +1,19 @@
 [
   {
+    "title": "Leveling Up Rails Controllers - Organizing Logic with Plain Ruby Objects",
+    "category": "Ruby",
+    "permalink": "https://hashrocket.com/blog/posts/leveling-up-rails-controllers-organizing-logic-with-plain-ruby-objects",
+    "source": "Hashrocket Blog",
+    "created_at": "December 6, 2022"
+  },
+  {
+    "title": "Optimizing a Database Query with Functional Indexes in Postgres",
+    "category": "PostgreSQL",
+    "permalink": "https://hashrocket.com/blog/posts/optimizing-a-database-query-with-functional-indexes-in-postgres",
+    "source": "Hashrocket Blog",
+    "created_at": "July 12, 2022"
+  },
+  {
     "title": "A Handful of Useful Features in PostgreSQL & SQL",
     "category": "PostgreSQL",
     "permalink": "https://hashrocket.com/blog/posts/a-handful-of-useful-features-in-postgresql-sql",
