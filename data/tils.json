@@ -1,5 +1,313 @@
 [
   {
+    "title": "Easily get all days in a week with Rails",
+    "category": "Rails",
+    "permalink": "https://til.hashrocket.com/posts/odkrokribg-easily-get-all-days-in-a-week-with-rails",
+    "source": "Hashrocket TIL",
+    "created_at": "July 18, 2025"
+  },
+  {
+    "title": "Authenticate Req Requests with Basic Auth",
+    "category": "Elixir",
+    "permalink": "https://til.hashrocket.com/posts/io8zq63i4j-authenticate-req-requests-with-basic-auth",
+    "source": "Hashrocket TIL",
+    "created_at": "June 19, 2025"
+  },
+  {
+    "title": "Mission Control Keyboard Shortcut OSX",
+    "category": "Workflow",
+    "permalink": "https://til.hashrocket.com/posts/lg3gdhwwht-mission-control-keyboard-shortcut-osx",
+    "source": "Hashrocket TIL",
+    "created_at": "June 19, 2025"
+  },
+  {
+    "title": "Configure ngrok with Rails Server in development",
+    "category": "Rails",
+    "permalink": "https://til.hashrocket.com/posts/xnbv1ah8il-configure-ngrok-with-rails-server-in-development",
+    "source": "Hashrocket TIL",
+    "created_at": "April 24, 2025"
+  },
+  {
+    "title": "Extract Secrets from 1Password for Kamal Deploy",
+    "category": "Rails",
+    "permalink": "https://til.hashrocket.com/posts/aum0w1p8re-extract-secrets-from-1password-for-kamal-deploy",
+    "source": "Hashrocket TIL",
+    "created_at": "March 13, 2025"
+  },
+  {
+    "title": "Handy Commands for Raspberry Pi Sensors",
+    "category": "Ruby",
+    "permalink": "https://til.hashrocket.com/posts/xr3lltgrac-handy-commands-for-raspberry-pi-sensors",
+    "source": "Hashrocket TIL",
+    "created_at": "February 25, 2025"
+  },
+  {
+    "title": "Run Script on Login/Start in Windows ",
+    "category": "Workflow",
+    "permalink": "https://til.hashrocket.com/posts/xzo7rotqrg-run-script-on-loginstart-in-windows-",
+    "source": "Hashrocket TIL",
+    "created_at": "February 10, 2025"
+  },
+  {
+    "title": "Managing Return Value of ActiveRecord Transactions",
+    "category": "Rails",
+    "permalink": "https://til.hashrocket.com/posts/lubccuv2o4-managing-return-value-of-activerecord-transactions",
+    "source": "Hashrocket TIL",
+    "created_at": "January 31, 2025"
+  },
+  {
+    "title": "Rails 8 Generate One Off Scripts",
+    "category": "Rails",
+    "permalink": "https://til.hashrocket.com/posts/uzlxeusneu-rails-8-generate-one-off-scripts",
+    "source": "Hashrocket TIL",
+    "created_at": "January 29, 2025"
+  },
+  {
+    "title": "Ruby 3.4 Warn on Method Unused Blocks",
+    "category": "Ruby",
+    "permalink": "https://til.hashrocket.com/posts/56t2xeg5mw-ruby-34-warn-on-method-unused-blocks",
+    "source": "Hashrocket TIL",
+    "created_at": "January 28, 2025"
+  },
+  {
+    "title": "Start a Rails Console in the Browser",
+    "category": "Rails",
+    "permalink": "https://til.hashrocket.com/posts/4v2incswrq-start-a-rails-console-in-the-browser",
+    "source": "Hashrocket TIL",
+    "created_at": "January 27, 2025"
+  },
+  {
+    "title": "Convert a Keyword List to a Struct",
+    "category": "Elixir",
+    "permalink": "https://til.hashrocket.com/posts/r3q9auuvum-convert-a-keyword-list-to-a-struct",
+    "source": "Hashrocket TIL",
+    "created_at": "January 24, 2025"
+  },
+  {
+    "title": "Count Occurrences of Elements in List",
+    "category": "Elixir",
+    "permalink": "https://til.hashrocket.com/posts/p644x4pbrt-count-occurrences-of-elements-in-list",
+    "source": "Hashrocket TIL",
+    "created_at": "December 3, 2024"
+  },
+  {
+    "title": "Sorting and Sort Order In Netrw (vim)",
+    "category": "Vim",
+    "permalink": "https://til.hashrocket.com/posts/p8hge3xvff-sorting-and-sort-order-in-netrw-vim",
+    "source": "Hashrocket TIL",
+    "created_at": "October 24, 2024"
+  },
+  {
+    "title": "PG Cluster Commands in Ubuntu",
+    "category": "Devops",
+    "permalink": "https://til.hashrocket.com/posts/idpgx5onaz-pg-cluster-commands-in-ubuntu",
+    "source": "Hashrocket TIL",
+    "created_at": "October 3, 2024"
+  },
+  {
+    "title": "Sigils in Elixir",
+    "category": "Elixir",
+    "permalink": "https://til.hashrocket.com/posts/p5fpfqd4vf-sigils-in-elixir",
+    "source": "Hashrocket TIL",
+    "created_at": "September 20, 2024"
+  },
+  {
+    "title": "Change Text of Blank Option in a Rails Select Tag",
+    "category": "Rails",
+    "permalink": "https://til.hashrocket.com/posts/kuif5fmqlt-change-text-of-blank-option-in-a-rails-select-tag",
+    "source": "Hashrocket TIL",
+    "created_at": "September 10, 2024"
+  },
+  {
+    "title": "Run Expo Build Locally",
+    "category": "Mobile",
+    "permalink": "https://til.hashrocket.com/posts/irzuebjkuk-run-expo-build-locally",
+    "source": "Hashrocket TIL",
+    "created_at": "June 19, 2024"
+  },
+  {
+    "title": "Modify Tables with `change_table` in Rails ",
+    "category": "Rails",
+    "permalink": "https://til.hashrocket.com/posts/5jeh0sud4y-modify-tables-with-changetable-in-rails-",
+    "source": "Hashrocket TIL",
+    "created_at": "April 12, 2024"
+  },
+  {
+    "title": "Change ActionCable's URL on the Client",
+    "category": "Rails",
+    "permalink": "https://til.hashrocket.com/posts/xbwdiu2qev-change-actioncables-url-on-the-client",
+    "source": "Hashrocket TIL",
+    "created_at": "April 2, 2024"
+  },
+  {
+    "title": "Open New Tab with HTML Form Submit",
+    "category": "Html-css",
+    "permalink": "https://til.hashrocket.com/posts/zmf3gwfksy-open-new-tab-with-html-form-submit",
+    "source": "Hashrocket TIL",
+    "created_at": "March 28, 2024"
+  },
+  {
+    "title": "Run `db/seeds.rb` from within Ruby",
+    "category": "Rails",
+    "permalink": "https://til.hashrocket.com/posts/dqmk4yc0nl-run-dbseedsrb-from-within-ruby",
+    "source": "Hashrocket TIL",
+    "created_at": "March 18, 2024"
+  },
+  {
+    "title": "Return Types In PSQL Pattern Match",
+    "category": "Sql",
+    "permalink": "https://til.hashrocket.com/posts/lub2ihttqj-return-types-in-psql-pattern-match",
+    "source": "Hashrocket TIL",
+    "created_at": "March 14, 2024"
+  },
+  {
+    "title": "Create Accessors for JSONB column data in Rails",
+    "category": "Rails",
+    "permalink": "https://til.hashrocket.com/posts/9mj0tvphji-create-accessors-for-jsonb-column-data-in-rails",
+    "source": "Hashrocket TIL",
+    "created_at": "March 5, 2024"
+  },
+  {
+    "title": "Handle Julian Dates in Ruby",
+    "category": "Ruby",
+    "permalink": "https://til.hashrocket.com/posts/xwa1g8wbvo-handle-julian-dates-in-ruby",
+    "source": "Hashrocket TIL",
+    "created_at": "February 29, 2024"
+  },
+  {
+    "title": "Disable database management tasks in Rails",
+    "category": "Rails",
+    "permalink": "https://til.hashrocket.com/posts/qaynmuztcy-disable-database-management-tasks-in-rails",
+    "source": "Hashrocket TIL",
+    "created_at": "January 16, 2024"
+  },
+  {
+    "title": "Capitalize the First Letter of Each Word in PSQL",
+    "category": "Sql",
+    "permalink": "https://til.hashrocket.com/posts/4bqcp0lyvv-capitalize-the-first-letter-of-each-word-in-psql",
+    "source": "Hashrocket TIL",
+    "created_at": "January 14, 2024"
+  },
+  {
+    "title": "Unsubscribe from `watchPositionAsync` in Expo",
+    "category": "Mobile",
+    "permalink": "https://til.hashrocket.com/posts/gp65vcfnla-unsubscribe-from-watchpositionasync-in-expo",
+    "source": "Hashrocket TIL",
+    "created_at": "January 9, 2024"
+  },
+  {
+    "title": "Create Environment Specific Rails Credentials",
+    "category": "Rails",
+    "permalink": "https://til.hashrocket.com/posts/6vd4noapyc-create-environment-specific-rails-credentials",
+    "source": "Hashrocket TIL",
+    "created_at": "January 4, 2024"
+  },
+  {
+    "title": "List Your Current Middleware in Rails",
+    "category": "Rails",
+    "permalink": "https://til.hashrocket.com/posts/x5vtzxh6cv-list-your-current-middleware-in-rails",
+    "source": "Hashrocket TIL",
+    "created_at": "December 19, 2023"
+  },
+  {
+    "title": "Get Screen Dimensions in React Native",
+    "category": "Mobile",
+    "permalink": "https://til.hashrocket.com/posts/arspywuwcx-get-screen-dimensions-in-react-native",
+    "source": "Hashrocket TIL",
+    "created_at": "December 15, 2023"
+  },
+  {
+    "title": "Files Have Extended Attributes in OSX",
+    "category": "Computer-science",
+    "permalink": "https://til.hashrocket.com/posts/oufcnvpjym-files-have-extended-attributes-in-osx",
+    "source": "Hashrocket TIL",
+    "created_at": "December 14, 2023"
+  },
+  {
+    "title": "ActiveRecord's attribute_in_database method",
+    "category": "Rails",
+    "permalink": "https://til.hashrocket.com/posts/urdpcstonf-activerecords-attributeindatabase-method",
+    "source": "Hashrocket TIL",
+    "created_at": "November 8, 2023"
+  },
+  {
+    "title": "Understanding the 'WWW-Authenticate' Header",
+    "category": "Devops",
+    "permalink": "https://til.hashrocket.com/posts/un39nzgoyc-understanding-the-www-authenticate-header",
+    "source": "Hashrocket TIL",
+    "created_at": "October 4, 2023"
+  },
+  {
+    "title": "Git Log Without Merges",
+    "category": "Git",
+    "permalink": "https://til.hashrocket.com/posts/3ywjnkrb8a-git-log-without-merges",
+    "source": "Hashrocket TIL",
+    "created_at": "July 28, 2023"
+  },
+  {
+    "title": "Import Github User Public SSH Keys ",
+    "category": "Command-line",
+    "permalink": "https://til.hashrocket.com/posts/aggicgrpxg-import-github-user-public-ssh-keys-",
+    "source": "Hashrocket TIL",
+    "created_at": "July 20, 2023"
+  },
+  {
+    "title": "Quote a SQL Value in Rails",
+    "category": "Rails",
+    "permalink": "https://til.hashrocket.com/posts/m9snm7ympc-quote-a-sql-value-in-rails",
+    "source": "Hashrocket TIL",
+    "created_at": "July 5, 2023"
+  },
+  {
+    "title": "Geocode an Address in PostgreSQL with PostGIS",
+    "category": "Sql",
+    "permalink": "https://til.hashrocket.com/posts/abyvnnbcvr-geocode-an-address-in-postgresql-with-postgis",
+    "source": "Hashrocket TIL",
+    "created_at": "July 5, 2023"
+  },
+  {
+    "title": "Download and Run an Expo Build on Simulator",
+    "category": "Mobile",
+    "permalink": "https://til.hashrocket.com/posts/phwqctqtvb-download-and-run-an-expo-build-on-simulator",
+    "source": "Hashrocket TIL",
+    "created_at": "May 25, 2023"
+  },
+  {
+    "title": "Bulk Delete Records in Rails with `delete_by`",
+    "category": "Rails",
+    "permalink": "https://til.hashrocket.com/posts/jfxa3vclnq-bulk-delete-records-in-rails-with-deleteby",
+    "source": "Hashrocket TIL",
+    "created_at": "May 8, 2023"
+  },
+  {
+    "title": "Upload Active Storage Attachments to Specific Path",
+    "category": "Rails",
+    "permalink": "https://til.hashrocket.com/posts/eo1i83eid2-upload-active-storage-attachments-to-specific-path",
+    "source": "Hashrocket TIL",
+    "created_at": "May 8, 2023"
+  },
+  {
+    "title": "Custom Flash Messages in Rails",
+    "category": "Rails",
+    "permalink": "https://til.hashrocket.com/posts/fitzzhkod1-custom-flash-messages-in-rails",
+    "source": "Hashrocket TIL",
+    "created_at": "March 5, 2023"
+  },
+  {
+    "title": "Convert Changeset Into Schema With `apply_changes`",
+    "category": "Elixir",
+    "permalink": "https://til.hashrocket.com/posts/3aj6byprad-convert-changeset-into-schema-with-applychanges",
+    "source": "Hashrocket TIL",
+    "created_at": "March 3, 2023"
+  },
+  {
+    "title": "Curl `-T/--upload-file` in Faraday",
+    "category": "Ruby",
+    "permalink": "https://til.hashrocket.com/posts/eulu4etz7u-curl-t-upload-file-in-faraday",
+    "source": "Hashrocket TIL",
+    "created_at": "February 19, 2023"
+  },
+  {
     "title": "Remove Padding from Postgres Formatting Functions",
     "category": "Sql",
     "permalink": "https://til.hashrocket.com/posts/dw0da8zjd3-remove-padding-from-postgres-formatting-functions",

@@ -1,5 +1,26 @@
 [
   {
+    "title": "Running My First Kamal Deploy",
+    "category": null,
+    "permalink": "https://hashrocket.com/blog/posts/running-my-first-kamal-deploy",
+    "source": "Hashrocket Blog",
+    "created_at": "April 1, 2025"
+  },
+  {
+    "title": "Broadcasting User Specific Turbo Content",
+    "category": "Ruby",
+    "permalink": "https://hashrocket.com/blog/posts/broadcasting-user-specific-turbo-content",
+    "source": "Hashrocket Blog",
+    "created_at": "February 4, 2025"
+  },
+  {
+    "title": "Validating JSON File Contents With Your Text Editor",
+    "category": "Vim",
+    "permalink": "https://hashrocket.com/blog/posts/validating-json-file-contents-with-your-text-editor",
+    "source": "Hashrocket Blog",
+    "created_at": "January 30, 2025"
+  },
+  {
     "title": "Leveling Up Rails Controllers - Organizing Logic with Plain Ruby Objects",
     "category": "Ruby",
     "permalink": "https://hashrocket.com/blog/posts/leveling-up-rails-controllers-organizing-logic-with-plain-ruby-objects",
